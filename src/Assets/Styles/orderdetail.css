@@ -1,0 +1,51 @@
+.order-popup-container {
+    background: linear-gradient(135deg,#71ff7f , #8fff9a);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 6px 32px 0 #000000b2;
+    border:1px solid #ffffff25;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 5px #424242b2;
+}
+.order-detail-table {
+    width: 100%;
+}
+.detail-div {
+    margin: 10px 0px;
+}
+.detail-r1 {
+    justify-content: space-between;
+}
+.detail-r2{
+    display: flex;
+}
+.r2-divs {
+    flex: 1;
+}
+.order-label {
+    color: #303030;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.order-phone {
+    white-space: break-spaces;
+}
+.order-info-value {
+    color: #FF6600;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px;
+}
+.delivered-button {
+    padding: 10px 20px;
+    background-color: #FF6600;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.0rem;
+    color: #e5ffea;
+}

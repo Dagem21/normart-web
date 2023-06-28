@@ -1,0 +1,86 @@
+.main-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 345px;
+    height: fit-content;
+}
+.container {
+    width: 345px;
+    height: 120px;
+    display: flex;
+    padding-left: 10px;
+}
+.pac-image-container {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.package-image {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.details {
+    flex: 2;
+    padding: 10px;
+}
+.discount {
+    color: #686868;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100%;
+}
+.discription {
+    padding: 10px 0px;
+    color: #686868;
+    font-weight: 700;
+    font-size: 12px;
+    width: 100%;
+}
+.price {
+    display: inline;
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 10px 5px 0px;
+    border-radius: 7px;
+}
+.get-button {
+    background-color: #26FB3B;
+    color: #F4FFF1;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+}
+.items-label {
+    padding: 10px;
+    color: #686868;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    vertical-align: middle;
+}
+.contents-div[open] > summary {
+    .expand-icon {
+        rotate: 0deg;
+    }
+}
+.expand-icon {
+    float: right;
+    margin-right: 20px;
+    rotate: 180deg;
+}
+.items-list {
+    margin: 0px;
+    padding: 0px 0px 10px 20px;
+    color: #666666;
+    font-weight: 900;
+    font-size: 13px;
+    width: 100%;
+}

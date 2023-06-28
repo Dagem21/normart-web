@@ -1,0 +1,59 @@
+.tablerow-cat {
+    color: #FF6600;
+    font-weight: 700;
+    font-size: 16px;
+}
+.item-name {
+    color: #FF6600;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.delete-icon {
+    float: right;
+}
+.tablerow-item {
+    color: #FF6600;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 30px;
+    text-align: center;
+}
+.item-total-price {
+    color: #535353ce;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 0px;
+}
+.item-total-price-value {
+    color: #535353ce;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+}
+.price-span {
+    color: #FF6600;
+    font-weight: 700;
+    font-size: 16px;
+}
+.total-checkout {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.to-checkout-button {
+    vertical-align: middle;
+    border: none;
+    border-radius: 5px;
+    color: #686868;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 7px 20px;
+    background-color: #0eff26;
+}
+.empty-cart {
+    color: #FF6600;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}

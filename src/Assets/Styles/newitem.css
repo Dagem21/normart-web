@@ -1,0 +1,102 @@
+.new-item-label {
+    color: #00D215;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.item-input-label {
+    color: #838383;
+    font-weight: 700;
+    font-size: 15px;
+}
+.item-inputfield {
+    width: 250px;
+    border: 0;
+    border-bottom: 2px solid;
+    background: #f8fff9;
+    color: #FF6600;
+    outline: 0;
+    padding: 7px 0px;
+    margin-bottom: 10px;
+    transition: border-color 0.2s;
+    border-color: #79797983;
+}
+.item-inputfield:focus {
+    border-width: 3px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-color: #FF6600;
+    border-image-slice: 1;
+}
+.image-upload::-webkit-file-upload-button {
+    padding: 5px 10px;
+    background-color: #b0ffb8dc;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: #727272;
+    float: right;
+}
+.create-button-item {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #31ff45;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.0rem;
+    color: #e5ffea;
+}
+.delete-button-item {
+    margin: 10px 60px;
+    padding: 8px 20px;
+    border: 2px solid #ec0000;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.0rem;
+    color: #ec0000;
+}
+.item-form-col {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.div-form-col-2 {
+    flex: 1;
+    margin-left: 50px;
+}
+.item-tax {
+    margin-left: 10px;
+    border-width: 2px;
+    border-color: #a3a3a3ce;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    color: #FF6600;
+    font-weight: 700;
+}
+.item-tax:focus {
+    border-width: 3px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-color: #FF6600;
+    border-image-slice: 1;
+}
+.preview-item {
+    margin-left: 50px;
+}
+.message-box {
+    background: linear-gradient(135deg,#a0a0a062 , #6969697a);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 3px 16px 0 #52525275;
+    border:1px solid #ffffff25;
+    width: 500px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 5px #000000b2;
+    text-align: center;
+    color: #00a711;
+    vertical-align: top;
+}

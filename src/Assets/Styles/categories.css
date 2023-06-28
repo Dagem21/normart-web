@@ -1,0 +1,13 @@
+.category-list {
+    padding: 10px;
+    padding-top: 0px;
+    display: flex;
+    overflow-x: scroll;
+}
+.category-items {
+    display: flex;
+    padding: 0px 10px;
+}
+.selected-category {
+    margin-top: -20px;
+}

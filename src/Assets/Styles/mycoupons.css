@@ -1,0 +1,33 @@
+.coupon-form-container{
+    padding: 10px;
+}
+.new-coupon-label {
+    color: #00D215;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.coupons-table-container {
+    width: 100%;
+    overflow-x: scroll;
+}
+.tablehead-column {
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 20px;
+    
+}
+.tablehead-col-div {
+    border: none;
+    border-color: transparent;
+    border-bottom-color: #a3a3a3ce;
+    border-style: solid;
+    width: 80px;
+}
+.tablerow-data {
+    color: #FF6600;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 20px;
+}

@@ -1,0 +1,230 @@
+.admin-inputfield:-webkit-autofill,
+.admin-inputfield:-webkit-autofill:hover, 
+.admin-inputfield:-webkit-autofill:focus, 
+.admin-inputfield:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #3fff52 inset !important;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+@media only screen and (max-width:600px) {
+    .change-user {
+        padding: 0px 10px 10px 10px;
+    }
+    .admin-login-label {
+        color: #3b3b3b;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .admin-input-label {
+        color: #515151;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .admin-inputfield {
+        width: 90%;
+        border: 1px solid;
+        border-radius: 5px;
+        background: #3fff52;
+        color: #FF6600;
+        outline: 0;
+        font-size: 1.1rem;
+        padding: 7px 5px;
+        margin-bottom: 10px;
+        transition: border-color 0.2s;
+        border-color: #51515181;
+    }
+    .admin-inputfield:focus {
+        border-color: #FF6600;
+    }
+    .admin-login-button {
+        padding: 10px 20px;
+        background-image: linear-gradient(#4aff5d, #00b612);
+        border: 0;
+        border-radius: 10px;
+        font-weight: 900;
+        font-size: 1.0rem;
+        color: #313131dc;
+    }
+}
+@media only screen and (min-width:600px) {
+    .change-user {
+        padding: 0px 10px 10px 10px;
+    }
+    .admin-login-label {
+        color: #3b3b3b;
+        font-weight: 900;
+        font-size: 12px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .admin-input-label {
+        color: #515151;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .admin-inputfield {
+        width: 70%;
+        border: 1px solid;
+        border-radius: 5px;
+        background: #3fff52;
+        color: #FF6600;
+        outline: 0;
+        font-size: 1.1rem;
+        padding: 7px 5px;
+        margin-bottom: 10px;
+        transition: border-color 0.2s;
+        border-color: #51515181;
+    }
+    .admin-inputfield:focus {
+        border-color: #FF6600;
+    }
+    .admin-login-button {
+        padding: 10px 20px;
+        background-image: linear-gradient(#4aff5d, #00b612);
+        border: 0;
+        border-radius: 10px;
+        font-weight: 900;
+        font-size: 1.0rem;
+        color: #313131dc;
+    }
+}
+@media only screen and (min-width:768px) {
+    .change-user {
+        padding: 0px 10px 10px 10px;
+    }
+    .admin-login-label {
+        color: #3b3b3b;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .admin-input-label {
+        color: #515151;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .admin-inputfield {
+        width: 60%;
+        border: 1px solid;
+        border-radius: 5px;
+        background: #3fff52;
+        color: #FF6600;
+        outline: 0;
+        font-size: 1.1rem;
+        padding: 7px 5px;
+        margin-bottom: 10px;
+        transition: border-color 0.2s;
+        border-color: #51515181;
+    }
+    .admin-inputfield:focus {
+        border-color: #FF6600;
+    }
+    .admin-login-button {
+        padding: 10px 20px;
+        background-image: linear-gradient(#4aff5d, #00b612);
+        border: 0;
+        border-radius: 10px;
+        font-weight: 900;
+        font-size: 1.0rem;
+        color: #313131dc;
+    }
+}
+@media only screen and (min-width:992px) {
+    .change-user {
+        padding: 0px 10px 10px 10px;
+    }
+    .admin-login-label {
+        color: #3b3b3b;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .admin-input-label {
+        color: #515151;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .admin-inputfield {
+        width: 60%;
+        border: 1px solid;
+        border-radius: 5px;
+        background: #3fff52;
+        color: #FF6600;
+        outline: 0;
+        font-size: 1.1rem;
+        padding: 7px 5px;
+        margin-bottom: 10px;
+        transition: border-color 0.2s;
+        border-color: #51515181;
+    }
+    .admin-inputfield:focus {
+        border-color: #FF6600;
+    }
+    .admin-login-button {
+        padding: 10px 20px;
+        background-image: linear-gradient(#4aff5d, #00b612);
+        border: 0;
+        border-radius: 10px;
+        font-weight: 900;
+        font-size: 1.0rem;
+        color: #313131dc;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .change-user {
+        padding: 0px 10px 10px 10px;
+    }
+    .admin-login-label {
+        color: #3b3b3b;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .admin-input-label {
+        color: #515151;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .admin-inputfield {
+        width: 40%;
+        border: 1px solid;
+        border-radius: 5px;
+        background: #3fff52;
+        color: #FF6600;
+        outline: 0;
+        font-size: 1.1rem;
+        padding: 7px 5px;
+        margin-bottom: 10px;
+        transition: border-color 0.2s;
+        border-color: #51515181;
+    }
+    .admin-inputfield:focus {
+        border-color: #FF6600;
+    }
+    .submit-button {
+        padding: 10px 20px;
+        background-image: linear-gradient(#4aff5d, #00b612);
+        border: 0;
+        border-radius: 10px;
+        font-weight: 900;
+        font-size: 1.0rem;
+        color: #313131dc;
+    }
+    .admin-login-button {
+        padding: 10px 20px;
+        background-image: linear-gradient(#4aff5d, #00b612);
+        border: 0;
+        border-radius: 10px;
+        font-weight: 900;
+        font-size: 1.0rem;
+        color: #313131dc;
+    }
+}

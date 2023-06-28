@@ -1,0 +1,62 @@
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -800px 0;
+    }
+    100% {
+        background-position: 800px 0;
+    }
+}
+.package-loading {
+    width: 345px;
+    height: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    padding-left: 10px;
+    background-color: #C6FDBC;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #a6ffaf 8%, #2bff40 18%, #a6ffaf 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+.category-loading {
+    width: 120px;
+    height: 140px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    padding-left: 10px;
+    background-color: #C6FDBC;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #a6ffaf 8%, #2bff40 18%, #a6ffaf 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+.popular-loading {
+    width: 200px;
+    height: 160px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    padding-left: 10px;
+    background-color: #C6FDBC;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #a6ffaf 8%, #2bff40 18%, #a6ffaf 33%);
+    background-size: 800px 104px;
+    position: relative;
+}

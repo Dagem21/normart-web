@@ -1,0 +1,25 @@
+.add-admin-form {
+    margin: 0px 0px 20px 20px;
+}
+.form-label {
+    padding: 0px 10px 5px 20px;
+    color: #00d215de;
+    font-weight: 700;
+}
+.admin-priv {
+    margin: 10px 0px 10px 10px;
+    border-width: 2px;
+    border-color: #a3a3a3ce;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #FF6600;
+    font-weight: 700;
+}
+.admin-priv:focus {
+    border-width: 3px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-color: #FF6600;
+    border-image-slice: 1;
+}

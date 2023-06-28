@@ -1,0 +1,60 @@
+.pop-container {
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+}
+.pop-image-container {
+    border-radius: 10px;
+    width: 200px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular-image {
+    max-width: 90px;
+    max-height: 90px;
+    display: block;
+    margin: auto;
+}
+.pop-details {
+    border-radius: 10px;
+    padding: 5px 0px 5px 10px;
+    background-color: #C6FDBC;
+}
+.pop-name {
+    color: #686868;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+}
+.pop-price-div {
+    padding-top: 5px;
+}
+.pop-discount {
+    color: #9E9E9E;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    padding-right: 5px;
+    display: inline;
+    text-decoration: line-through;
+}
+.pop-price {
+    color: #00D215;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    display: inline;
+}
+
+
+

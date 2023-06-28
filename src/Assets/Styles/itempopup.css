@@ -1,0 +1,109 @@
+.popup-container {
+    background: linear-gradient(135deg,#71ff7f , #8fff9a);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 6px 32px 0 #000000b2;
+    border:1px solid #ffffff25;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 5px #000000b2;
+}
+.image-div {
+    margin: 0px;
+    display: inline-block;
+}
+.item-details {
+    margin: 0px;
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 20px;
+}
+.item-image-container {
+    border-radius: 10px;
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-image {
+    max-width: 120px;
+    max-height: 120px;
+    margin: auto;
+}
+.item-name {
+    color: #009c10;
+    font-weight: 900;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.item-discount {
+    color: #999999;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: left;
+    padding-right: 5px;
+    display: inline;
+    text-decoration: line-through;
+}
+.item-price {
+    color: #4e4e4e;
+    font-weight: 900;
+    font-size: 15px;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    display: inline;
+}
+.input-container {
+    margin: 30px 10px 10px 50px;
+}
+.icon-amount {
+    background-color: #00D215;
+    color: #f0fff2;
+    padding: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+.amount-input {
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f8fff9;
+    color: #686868;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    outline: 0;
+}
+.amount-input::-webkit-outer-spin-button,
+.amount-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.amount-input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+.addcart-popup {
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 7px 20px;
+    background-color: #00D215;
+}
